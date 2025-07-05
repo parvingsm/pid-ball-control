@@ -18,7 +18,7 @@ Servo moto;
 void setup() {
   pinMode(trig, OUTPUT);
   pinMode(echo, INPUT);
-  myServo.attach(9);  
+  moto.attach(9);  
   Serial.begin(9600);
 }
 
